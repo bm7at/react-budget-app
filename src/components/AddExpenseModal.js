@@ -1,6 +1,7 @@
 import { Form, Modal, Button } from "react-bootstrap"
 import { useRef } from "react"
 import { useBudgets, UNCATEGORIZED_BUDGET_ID } from "../contexts/BudgetsContext"
+import React from 'react'
 
 export default function AddExpenseModal({
   show,

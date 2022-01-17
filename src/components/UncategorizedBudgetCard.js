@@ -1,5 +1,7 @@
 import { UNCATEGORIZED_BUDGET_ID, useBudgets } from "../contexts/BudgetsContext"
 import BudgetCard from "./BudgetCard"
+import React from 'react'
+
 
 export default function UncategorizedBudgetCard(props) {
   const { getBudgetExpenses } = useBudgets()

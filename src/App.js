@@ -8,6 +8,7 @@ import UncategorizedBudgetCard from "./components/UncategorizedBudgetCard"
 import TotalBudgetCard from "./components/TotalBudgetCard"
 import { useState } from "react"
 import { UNCATEGORIZED_BUDGET_ID, useBudgets } from "./contexts/BudgetsContext"
+import React from 'react'
 
 function App() {
   const [showAddBudgetModal, setShowAddBudgetModal] = useState(false)
